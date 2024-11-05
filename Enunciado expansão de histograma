@@ -1,0 +1,17 @@
+Criar um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt,
+realizando a expansão de um histograma a partir de uma imagem, a expansão deve ser feita utilizando 3 trechos lineares para ampliar o contraste, 
+deve ocorrer a alteração da imagem de destino a partir de uma função (alargamento de contraste) genérica. Depois deve ser feito que
+a curva de tom original e alteradas, 
+com suas respectivas curvas de tom e histogramas. 
+
+Para realizar a expansão do histograma usando três trechos lineares, vamos definir uma função 
+de alargamento de contraste, aplicando três trechos lineares para estender o contraste em diferentes
+faixas de intensidade. Essa função genérica será aplicada a cada canal da imagem. Em seguida, vamos plotar os 
+histogramas e curvas de tom antes e depois do alargamento.
+
+Função alargamento_contraste:
+
+Aplica o alargamento de contraste com três trechos lineares. Definimos os pontos de controle para os segmentos de contraste e interpolamos valores de 0 a 255 para criar uma tabela de mapeamento (LUT), que é então aplicada em cada pixel.
+Plotagem dos Resultados:
+
+A função plot_histogram_curve exibe o histograma e as curvas de tom antes e depois da expansão.
