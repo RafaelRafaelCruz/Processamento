@@ -1,0 +1,44 @@
+criar um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt, sobre
+operações pontuais globais basedas na curva de tons, se a imagem tiver 256 tons de cinza, construir uma representação gráfica da 
+função f, na forma linear, 
+que relaciona a imagem original r com a imagem destino. 
+
+Para implementar operações pontuais globais baseadas na curva de tons, primeiro convertemos a imagem colorida para escala de 
+cinza e, em seguida, 
+aplicamos uma transformação linear que relaciona o valor do pixel na imagem original (
+𝑟
+r) com o valor do pixel na imagem transformada (
+𝑓
+(
+𝑟
+)
+f(r)).
+
+Aqui está o código modificado para criar uma representação gráfica da função linear que mapeia a imagem original para a imagem de destino,
+e para exibir essa curva de tons:
+
+Conversão para Escala de Cinza: Convertemos a imagem de entrada para uma imagem em tons de cinza.
+Transformação Linear: A função transformacao_linear(r) implementa uma transformação linear básica, onde 
+𝑓
+(
+𝑟
+)
+=
+𝑎
+𝑟
++
+𝑏
+f(r)=ar+b. Aqui, 
+𝑎
+a e 
+𝑏
+b estão definidos para 1 e 0, respectivamente, mantendo os níveis de cinza inalterados, mas 
+você pode ajustar esses valores para outros efeitos.
+Curva de Tons: A curva de tons é plotada com base nos valores de 0 a 255 para ilustrar a 
+relação entre a intensidade original e a intensidade transformada.
+Exibição e Salvamento: A imagem original em escala de cinza e a imagem transformada são exibidas e a curva de tons é salva.
+
+
+
+
+
