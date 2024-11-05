@@ -1,0 +1,11 @@
+Criar um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt, 
+realizando a expansão de um histograma a partir de uma imagem. Deve ser feito que a curva de tom original e alteradas,
+com suas respectivas curvas de tom e histogramas.
+
+No código atualizado, adicionarei uma função para realizar a equalização do histograma e mostrarei tanto o histograma 
+e curva de tons da imagem original quanto da imagem equalizada.
+
+A função equalizar_histograma realiza a equalização de histograma criando uma função de distribuição cumulativa (CDF) e
+a mapeia para a imagem original.
+A função plot_histogram_curve exibe tanto o histograma quanto as curvas de tons da imagem original e da imagem equalizada para
+que a diferença seja visualizada.
