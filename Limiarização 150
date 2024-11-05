@@ -1,0 +1,5 @@
+Criar um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt, que escolha uma imagem com mais de duas  
+tonalidades diferentes, transforme a imagem com limiarização com valor 150 e mostre o seu  
+histograma. É necessário fazer o histograma na cor preto e na cor branco. Em seguida separe os objetos da imagem  
+através da utilização de limiarização 
+multinível (multilevel thresholding).
