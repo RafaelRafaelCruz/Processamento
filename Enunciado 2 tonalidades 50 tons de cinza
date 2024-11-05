@@ -1,0 +1,5 @@
+Criar um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt, 
+que transforma uma imagem com duas tonalidades diferentes em uma imagem com 50 tons de cinza e mostre o seu histograma 
+Em seguida separe os objetos da imagem através da utilização de limiarização  (thresholding).
+O código deve fazer um ponto de corte de 116 no histograma. No código deve haver um trecho que deixe somente a cor em branco a direita do
+ponto corte de 116, transformando a parte preta a esquerda na cor preta para 255 no histograma
