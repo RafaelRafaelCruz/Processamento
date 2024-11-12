@@ -1,0 +1,5 @@
+azer um código em python, utilizando somente as bibliotecas import cv2,  import numpy e import matplotlib.pyplot as plt, que realize 
+a expansão de um histograma carregando uma imagem e transformando em uma nova imagem.  A equalização deve ser feita em uma imagem de 128 x 128 pixels
+com 8 níveis de cinza. Após o processo de equalização de um histograma e deve deixar o histograma normalizado acumulado. Fazer o histograma da
+imagem antes e o histograma da imagem depois da equalização do histograma e depois de deixar o histograma normalizado acumulado,
+utilizando 3 trechos lineares para ampliar o contraste. O código deve ser feito a partir do código a seguir:
