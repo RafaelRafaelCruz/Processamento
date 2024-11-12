@@ -1,0 +1,4 @@
+Fazer um código em python, utilizando somente as bibliotecas import cv2,  import numpy e  import matplotlib.pyplot as plt, 
+que realize a expansão de um histograma utilizando 3 trechos lineares para ampliar o contraste, fazendo a alteração da imagem destino a  
+partir de uma função (alargamento 
+de contraste) genérica, para r>r2 utilizando a equação T(r) = s = (r-r2).[(smax-s2)/(rmax-r2)]+s2
