@@ -1,0 +1,7 @@
+Fazer um código em python, utilizando somente as bibliotecas import cv2,  import numpy 
+e import matplotlib.pyplot as plt, que realize a expansão de um histograma carregando uma imagem e transformando em uma nova imagem após o
+processo de equalização de um histograma e de deixar o histograma normalizado acumulado. Fazer o histograma da imagem antes e o histograma da 
+imagem depois da equalização do histograma e depois de deixar o histograma normalizado acumulado, utilizando 3 trechos lineares para ampliar o
+contraste, fazendo a alteração da imagem destino a  
+partir de uma função (alargamento de contraste) genérica, para r>r2 utilizando a equação T(r) = s = (r-r2).[(smax-s2)/(rmax-r2)]+s2. 
+Não utilizando bibliotecas do python. O novo código em python deve ser criado a partir do código a seguir: 
